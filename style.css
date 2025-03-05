@@ -1,0 +1,134 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)),url('main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo1{
+    width: 100px;
+    height: 100px;
+}
+#page{
+    text-decoration: none;
+    width: 10px;
+    height: 10px;
+    color: white;
+    font-size: 19px; 
+}
+#page1{
+    align-items: center;
+    text-align: center;
+    background: transparent;
+    width: 90x;
+    height: 25px;
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+#allpages{
+    width: 800px;
+   display:flex ;
+   align-items: center;
+   justify-content: space-evenly;
+   padding-left: 18px;
+   background: transparent;
+}
+#Heading{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-size: xx-large;
+    margin-top: 150px;
+    margin-inline: auto;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid;
+    animation: typing 4s steps(28),
+    blink-caret 0.5s step-end infinite;
+}
+/*typing effect*/
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 30%;
+    }
+}
+/*Cursor blinking*/
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
+#Heading1{
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+}
+#Heading2{
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+}
+.features{
+    border-top: 4px solid grey;
+}
+#Photo{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+.photoadd{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#img1{
+    width: 23%;
+    height: 300px;
+    position: relative;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+#img2{
+    width: 23%;
+    height: 300px;
+    position: relative;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+#img3{
+    width: 23%;
+    height: 300px;
+    position: relative;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+#img4{
+    width:23%;
+    height: 300px;
+    position: relative;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-color: red;
+}
